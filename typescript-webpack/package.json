@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "format": "prettier-eslint \"src\""
+    "format": "prettier-eslint \"src\"",
+    "dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +24,17 @@
     "lint-staged": "^11.0.0",
     "prettier": "2.3.0",
     "prettier-eslint-cli": "^5.0.1",
-    "typescript": "^4.2.4"
+    "typescript": "^4.2.4",
+    "css-loader": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.2.2",
+    "webpack": "^5.28.0",
+    "webpack-bundle-analyzer": "^4.4.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
   }
 }
