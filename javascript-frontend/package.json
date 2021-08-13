@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "format": "prettier-eslint \"src\""
+    "format": "prettier-eslint \"src/**/*.js\""
   },
   "keywords": [],
   "author": "",
